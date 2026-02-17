@@ -8,8 +8,8 @@ margin: 0;}
     border-bottom: 1px solid #eaeaec;
     display: flex;
     flex-direction: row;
-    position: fixed;
-    z-index: 0;
+   
+   
 
 }
 .navdiv{
@@ -73,4 +73,14 @@ padding-left: 10%;
     flex-direction: row;
     align-items: center;
    justify-content: space-evenly;
+}
+.navicon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+padding-top: 8%;
+}
+.navicntxt{
+    font-weight: 900;
+    font-size: 80%;
 }
